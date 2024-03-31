@@ -3,10 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Gym</title>
   </head>
   <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header_container">
+          <a href="#" class="logo">Good<span>lyfe</span></a>
+          <nav class="nav">
+            <a href="#" class="nav_link">Classess</a>
+            <a href="#" class="nav_link">Timetable</a>
+            <a href="#" class="nav_link">Clubs</a>
+            <a href="#" class="nav_link">Nutrition</a>
+            <a href="#" class="nav_link">Free Trial</a>
+          </nav>
+          <div class="search_loginBtn">
+            <a href="#" class="nav_link">Search</a>
+            <button class="btn">Login</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="banner">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/bg.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/slide-img.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/bg.jpg" alt="" />
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="banner_content">
+          <h1 class="banner_title">
+            Welcome to <br />
+            Goodlyfe Gyms
+          </h1>
+          <button class="banner_btn">See the benefits</button>
+        </div>
+      </main>
+      <section></section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
